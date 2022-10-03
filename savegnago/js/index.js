@@ -12,7 +12,7 @@ function Login() {
   seha = senha.toLowerCase();
 
   if (usuario == "000.000.000-00" && senha == "0000") {
-    window.location = "/projects/savegnago/html/dashboard.html";
+    window.location = "html/dashboard.html";
     done = 1;
   } else {
     alert("Login invalido, Tente novamente!");
