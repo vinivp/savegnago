@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/projects/savegnago/img/v12.ico">
+    <link rel="stylesheet" href="/projects/savegnago/css/index.css">
+    <script src="/projects/savegnago/js/index.js" defer></script>
+
+    <!-- API icones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Portal | Savegnago</title>
+</head>
+
+<body>
+    <main class="container">
+        <div class="login-body">
+
+            <img style="width: 20rem;" src="/projects/savegnago/img/login-img.jpg"></img>
+            <p><span style="font-size:26px;font-weight:bold;">Portal do Funcionário</span>
+            <p>
+
+            <div class="form">
+                <input style="border-color: #dfdfdf;" type="text" oninput="mascara(this)" name="usuario"
+                    placeholder="CPF" required />
+                <i class="fa fa-user usericon icon" aria-hidden="true"></i>
+
+                <input style="border-color: #dfdfdf;" type="password" name="senha" placeholder="Senha"
+                    required />
+                <i class="fa fa-lock passicon" aria-hidden="true"></i>
+
+                <button onclick="Login()" class="btn btn-primary">Acessar</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

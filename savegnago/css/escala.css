@@ -1,0 +1,16 @@
+.h-title {
+  height: 2.5rem;
+  background-color: rgb(0, 26, 255);
+  color: #fff;
+  padding: 0.5rem 0 0 0.5rem;
+}
+
+.h-conteudo {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.h-div {
+  border-radius: 35%;
+  margin-top: 0.5rem;
+}
