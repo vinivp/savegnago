@@ -11,7 +11,7 @@ function Login() {
   var senha = document.getElementsByName("senha")[0].value;
   seha = senha.toLowerCase();
 
-  if (usuario == "123.456.789-99" && senha == "1234") {
+  if (usuario == "000.000.000-00" && senha == "0000") {
     window.location = "/projects/savegnago/html/dashboard.html";
     done = 1;
   } else {
